@@ -1,0 +1,90 @@
+.products{
+    width: 100vw;
+
+    background-color: white;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    
+}
+
+.trending-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+        padding: 1rem;
+        background-color: red;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+}
+
+.all-products{
+width: 95vw;
+display: grid;
+grid-template-columns: repeat(4 , 25vw);
+grid-gap: .5rem;
+margin-top: 4rem;
+justify-content: space-evenly;
+
+}
+
+.explore{
+    margin: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background: rgb(49, 49, 209);
+    font-size: 2rem;
+}
+.explore:hover{
+    scale: 1.2;
+}
+
+
+@media screen  and (max-width: 800px){
+.all-products{
+    margin-right: 12vw;
+    grid-gap: 0rem;
+}
+    
+}
+@media screen  and (max-width: 650px){
+    .all-products{
+        width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+    
+       align-items: center;
+       justify-content: center;
+     
+       
+    }
+    
+}
+@media screen  and (max-width: 500px){
+.all-products{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+
+   align-items: center;
+   justify-content: center;
+ 
+   
+}
+    
+}
+@media screen  and (max-width: 420px){
+
+    .trending-title{
+        font-size: 1.5rem;
+    }
+
+    
+}
+

@@ -1,0 +1,119 @@
+.product{
+    min-width: 13vw;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient( rgba(131, 45, 230, 0.562) , gold);
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 4rem;
+    
+}
+.product:hover {
+scale: 1.2;
+}
+
+.product img{
+    height: 14vh;
+    transform: rotate(325deg);
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    transition: all .5s ease-in-out;
+}
+.product img:hover{
+    scale:1.2;
+    transform: rotate(360deg);
+}
+.product h4{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.product button{
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgb(22, 20, 20);
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    border: .5px solid white;
+}
+.product button:hover{
+    background-color: antiquewhite;
+    color: black;
+    margin-top: 10px;
+
+}
+
+
+@media screen  and (max-width: 1200px){
+    .product{
+        width: 18vw;
+ 
+    }
+    .product img{
+        height: 13vh;
+    }
+    .product h4{
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media screen  and (max-width: 1000px){
+    .product img{
+        height: 12vh;
+    }
+    .product h4{
+        font-size: 1.2rem;
+    }
+    
+}
+@media screen  and (max-width: 1000px){
+    .product img{
+        height: 10vh;
+    }
+    .product{
+        width: 18vw;
+    }
+    
+}
+@media screen  and (max-width: 650px){
+    .product img{
+        height: 12vh;
+    }
+    .product{
+        margin-right: 1rem;
+        width: 40vw;
+        min-height: 30vh;
+    }
+    
+}
+@media screen  and (max-width: 650px){
+    .product img{
+        height: 12vh;
+    }
+    .product{
+        margin-right: 1rem;
+        width: 70vw;
+        min-height: 30vh;
+    }
+    
+}
+@media screen  and (max-width: 350px){
+    .product img{
+        height: 10vh;
+    }
+    .product{
+        /* margin-right: 2rem; */
+        min-width: 90vw;
+        min-height: 30vh;
+        margin-right: 2vw;
+    }
+    
+}

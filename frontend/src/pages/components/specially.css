@@ -1,0 +1,139 @@
+.specially{
+    width: 95vw;
+    height: 50vh;
+    margin-top: 2rem;
+    background:   rgb(32, 32, 32);
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 30%;
+    margin-left: 2vw;
+    overflow: hidden;
+    border-radius: 10%;
+}
+.specially h1{
+    color: white;
+    font-size: 2.5rem;
+    
+    letter-spacing: 5px;
+
+}
+.your-offers{
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.your-offers div{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: 25vh;
+    background-color: white;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    
+
+}
+.your-offers div:hover{
+    background-color: rgb(231, 208, 77);
+    scale: 1.2;
+}
+
+.your-offers div img{
+    max-width: 14vw;
+    max-height: 14vh;
+}
+
+@media screen and (max-width: 1100px){
+    .specially{
+        margin-top: 2rem;
+
+    }
+    .specially h1{
+        font-size: 1.8rem;
+    }    
+    .your-offers h2{
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width: 860px){
+    .specially{
+        margin-top: 2rem;
+
+    }
+    .specially h1{
+        font-size: 1.6rem;
+    }    
+    .your-offers h2{
+        font-size: 1.3rem;
+    }
+    
+}
+@media screen and (max-width: 630px){
+    .specially{
+        margin-top: 2rem;
+
+    }
+    .specially h1{
+        font-size: 1.6rem;
+    }    
+    .your-offers h2{
+        font-size: 1.2rem;
+    }
+    .your-offers div img{
+        max-height: 17vh;
+    }
+}
+@media screen and (max-width: 540px){
+    .specially{
+        margin-top: 2rem;
+        height: 30vh;
+
+    }
+
+    .specially h1{
+        font-size: 1.4rem;
+    }    
+    .your-offers div{
+       width: 20vw;
+       height: 18vh;
+    }
+    .your-offers h2{
+        font-size: 1rem;
+    }
+    .your-offers div img{
+        max-height: 17vh;
+    }
+}
+@media screen and (max-width: 480px){
+    .specially{
+        margin-top: none;
+        height: 30vh;
+        width: 90vw;
+        margin-right: 5vw;
+
+    }
+
+    .specially h1{
+        font-size: 1.2rem;
+    }    
+    .your-offers div{
+       width: 22vw;
+       height: 15vh;
+       margin-right: 5vw;
+    }
+    .your-offers h2{
+        font-size: 1rem;
+    }
+    .your-offers div img{
+        max-height: 17vh;
+    }
+}
+

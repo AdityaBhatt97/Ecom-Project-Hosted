@@ -1,0 +1,256 @@
+
+.home{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.side-slope{
+    background-color: rgb(99, 64, 224);
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+/* Waves */
+.wave {
+    height: 35vh;
+    
+}
+.another-wave{
+    position: relative;
+    z-index: -1;
+     margin-top: -4rem;
+}
+
+/* Top Products */
+.top{
+    margin-top: 2rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #273036;
+    
+    width: 100vw;
+    height: 50vh;
+}
+
+.top-title h2{
+    font-size: 2.5rem;
+
+    color: wheat;
+    
+}
+
+
+/* Top Products */
+.top-products{
+    margin-top: 90px;
+
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-product{
+    background-color: white;
+    width: 15vw;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top-product:hover{
+    scale:1.2;
+    background-color: gold;
+}
+
+.top-images{
+    height: 20vh;
+    transform: rotate(325deg);
+    transition: all .5s ease-in-out;
+    
+
+     
+    }
+    
+    .top-product h4{
+        margin-top: 3rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+
+    
+
+    
+    }
+    
+    .top-images:hover{
+        transform: rotate(360deg);
+        scale: 1.2;
+
+    }
+    
+    @media screen and (max-width: 1650px) {
+       .wave{
+        margin-bottom: -10vh;
+       }
+    }
+        
+    @media screen and (max-width: 1350px) {
+        .top{
+            margin-top: 0px;
+        }
+    }
+    
+    @media screen and (max-width: 1210px) {
+        .top{
+            margin-top: -4rem;
+        }
+        .top-product{
+            width: 18vw;
+            
+        }
+        .wave{
+            margin-bottom: -15vh;
+        }
+    }
+    
+    
+    @media screen and (max-width: 920px) {
+        .top{
+            margin-top: -7rem;
+            font-size: 1.7rem;
+        }
+        .top-product{
+            width: 18vw;
+            
+        }
+        .top-product h4{
+            font-size: 1.5rem;
+        }
+        .top-images{
+            height: 15vh;
+        }
+
+        .wave{
+            margin-bottom: -20vh;
+        }
+    }
+    
+    
+    @media screen and (max-width: 830px) {
+        .top{
+            margin-top: -7rem;
+            font-size: 1.7rem;
+        }
+        .top-product{
+            width: 20vw;
+            margin-top: -2rem;
+            
+        }
+        .top-product h4{
+            font-size: 1.5rem;
+        }
+        .top-images{
+            height: 14vh;
+        }
+    }
+    
+    @media screen and (max-width: 710px) {
+        .wave img{
+            margin-top: 2rem;
+
+        }
+        .top{
+            margin-top: -7rem;
+            font-size: 1.7rem;
+        }
+        .top-product{
+            width: 22vw;
+            margin-top: -2rem;
+            
+        }
+        .top-product h4{
+            font-size: 1.2rem;
+        }
+        .top-images{
+            height: 13vh;
+        }
+        .top-products{
+            width: 100vw;
+        }
+    }
+    
+    @media screen and (max-width: 560px) {
+        .wave {
+            /* margin-top: -1rem; */
+            margin-bottom: -22vh;
+
+        }
+        .top{
+            margin-top: -10rem;
+            font-size: 1.7rem;
+            height: 100vh;
+            margin-bottom: -2rem;
+        }
+        .top-product{
+            width: 50vw;
+            height: 25vh;
+            margin-top: 0;
+            
+        }
+        .top-product h4{
+            font-size: 1.2rem;
+        }
+        .top-images{
+            height: 15vh;
+        }
+        .top-products{
+            width: 100vw;
+            flex-direction: column;
+            height: 90%;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .another-wave{
+            margin-top: 1rem;
+        }
+        .top-title{
+            margin-bottom: -4rem;
+        }
+    }
+
+    
+    
+
+    @media screen and (max-width: 470px) {
+ .top-product{
+    width: 60vw;
+ }
+ .wave{
+    margin-bottom: -24vh;
+ }
+    }
+
+    @media screen and (max-width: 300px) {
+        .top{
+            margin-top: -14rem;
+        }
+ .top-product{
+    width: 50vw;
+ }
+ .wave{
+    margin-bottom: -26vh;
+ }
+    }

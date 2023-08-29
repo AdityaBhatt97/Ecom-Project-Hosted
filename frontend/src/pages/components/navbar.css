@@ -1,0 +1,279 @@
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(99, 64, 224);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+      overflow: hidden;
+    color: white;
+    overflow: hidden;
+}
+
+.left{
+    flex: 1;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 1rem ;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+    
+
+.left h2{
+    text-decoration: none;
+    color: white;
+
+}
+.center{
+    flex: 3;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.center h4{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10vw;
+
+}
+/* .right div{
+    background-color: red;
+    height:  1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    top: 2%;
+    right: 1%;
+    text-align: center;
+    flex: 1;
+} */
+
+.right button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    display: flex;
+position: relative;
+width: 3vw;
+height: 7vh;
+justify-content: center;
+align-items: center;
+}
+.cart div{
+    background-color: rgb(36, 35, 35);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.right img{
+    height: 4vh;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+
+.btn{
+    color: white;
+    padding: 5px;
+    background-color: rgb(212, 21, 21);
+    border: 1px solid  white;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.btn:hover{
+    scale: 1.2;
+}
+
+@media screen and (max-width: 1400px){
+    .right div{
+        right: .4%;
+    }
+}
+@media screen and (max-width : 1300px){
+    .right div{
+        right: .1%;
+    }
+}
+
+@media screen and (max-width : 1240px){
+    .right div {
+        right: 0;
+    }
+    .right img{
+        margin-right: 1.5vw;
+    }
+}
+@media screen and (max-width: 1050px ) {
+    .right img{
+        margin-right: .8vw;
+    }
+}
+@media screen and (max-width: 1030px) {
+ .right{
+    flex: 2;
+ }
+ /* .right div{
+    right: 2%;
+ } */
+ .cart{
+     width: 4vw;
+ }
+    .cart div{
+        height: 2.5vh;
+        width: 2.5vh;
+        font-size: .8rem;
+
+    }
+}
+@media screen and (max-width: 875px){
+    .right div{ 
+        right: 1%;
+    }
+}
+@media screen and (max-width: 785px){
+    .right div{ 
+        right: .4%;
+    }
+}
+
+
+@media screen  and (max-width: 680px) {
+
+    .navbar{
+        padding: 0;
+        padding-right: 5px;
+    }
+.left{
+    flex: 0;
+    width: 18vw;
+}
+.center h4{
+    font-size: .8rem;
+}
+.right{
+    font-size: .8rem;
+}
+.right button{
+    padding-right: 4px;
+    font-size: .8rem;
+}
+    .right img{
+        height: 3vh;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .left{
+        width: 15vw;
+        font-size: .8rem;
+        justify-content: center;
+        align-items: center;
+    }
+  
+   
+    .cart{
+   
+        width: 5vw;
+    }
+    .cart div{
+        height: 1.8vh;
+        width: 2vw;
+        font-size: .5rem;
+        top: 10%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 520px){
+    .left{
+        width: 13vw;
+        font-size: .7rem;
+        letter-spacing: 2px;
+        padding: 0;
+        padding-left: 2px;
+    }
+    .center{
+        font-size: .7rem;
+   
+    }
+    .right button{
+        font-size: .7rem;
+    }
+    .right img{
+        height: 2.4vh;
+    }
+    .right div{
+        text-align: center;
+    }
+    
+}
+
+@media  screen and (max-width: 450px ) {
+    .left{
+        display: none;
+    }
+    .center{
+        justify-content: flex-start;
+        padding: 0;
+
+    }
+    .center h4{
+        margin-left: 3vw;
+    }
+    
+    
+}
+
+@media screen and (max-width: 400px){
+    .center h4{
+        font-size: .8rem;
+         margin-left: 2vw;
+    }
+    .right button{
+        font-size: .6rem;
+        padding: 2px;
+        
+    }
+    .right img{
+        margin-right: 3vw;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .center h4{
+       font-size: .7rem;
+    }
+}

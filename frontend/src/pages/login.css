@@ -1,0 +1,99 @@
+.login-container{
+    width: 100vw;
+    height: 100vh;
+    background: url('https://source.unsplash.com/lnvpji4fC3c');
+ 
+    /* background: radial-gradient(white , white, rgb(80,80,219)); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-container img{
+    position: absolute;
+    height: 20vh;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+}
+.login-bg{
+    border-radius: 10px;
+    background: white;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(158, 154, 154);
+}
+
+.login-bg h2{
+    font-size: 2rem;
+
+}
+.login-bg span {
+    color: red;
+}
+
+.login-bg input{
+    padding: .7rem 2rem;
+    font-size: 1.2rem;
+
+}
+
+.login-bg button{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.login-bg p {
+    color: red;
+}
+.login-bg button:disabled{
+    background-color: yellowgreen;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width : 650px) {
+    .login-bg input{
+        font-size: 1rem;
+        padding: .4rem 1.3rem;
+    }
+    .login-container img{
+        top: 3%;
+        left: 35%;
+    }
+}
+@media screen and (max-width : 510px) {
+    .login-bg{
+        width: 70%;
+    }
+    .login-bg input{
+        font-size: .7rem;
+        padding: .3rem 1.2rem;
+    }
+    .login-bg button{
+        font-size: 1rem;
+        padding: .7rem;
+    }
+}
+@media screen and (max-width : 380px) {
+    .login-container img{
+        left: 30%;
+    }
+    .login-bg{
+        width: 90%;
+    }
+    
+    .login-bg input{
+        font-size: .7rem;
+        padding: .3rem 1.2rem;
+    }
+    .login-bg button{
+        font-size: 1rem;
+        padding: .7rem;
+    }
+}

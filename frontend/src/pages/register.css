@@ -1,0 +1,128 @@
+.register-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://source.unsplash.com/lnvpji4fC3c');
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* position: relative; */
+   /* z-index: -5; */
+
+}
+.register-container img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 20vh;
+    border-radius: 50%;
+}
+.black-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(19, 18, 18, 0.63); */
+    /* background-color: black; */
+    
+    /* z-index: -1; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.register-bg{
+    /* position: relative; */
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(192, 189, 189);
+    /* z-index: -1; */
+    /* z-index: 1; */
+}
+
+.register-bg h2{
+    font-size: 2rem;
+}
+.register-bg span{
+    color: red;
+}
+.register-bg input{
+    padding: .7rem 1.7rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.register-bg button{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.register-bg button:disabled{
+    background-color: yellowgreen;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 700px){
+    .register-container img{
+        top: 4%;
+        left: 40%;
+    }
+    .register-container h2{
+        font-size: 1.7rem;
+    }
+    .register-bg{
+        width: 80%;
+    }
+    .register-bg input{
+        padding: .7rem;
+        width: 70%;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 510px){
+    .register-container img{
+        top: 4%;
+        left: 33%;
+    }
+    .register-bg{
+        width: 80%;
+    }
+    .register-bg input{
+        padding: .5rem;
+        font-size: .8rem;
+        width: 70%;
+        text-align: center;
+    }
+    .register-bg button{
+        font-size: .8rem;
+    }
+    
+}
+@media screen and (max-width: 300px){
+    .register-container img{
+        height: 15vh;
+        top: 4%;
+        left: 24%;
+    }
+
+    .register-bg{
+        width: 90%;
+    }
+    .register-bg input{
+        padding: .3rem;
+        font-size: .7rem;
+        width: 80%;
+        text-align: center;
+    }
+    .register-bg button{
+        font-size: .7rem;
+    }
+    
+}

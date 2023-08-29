@@ -1,0 +1,103 @@
+.view-order {
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ position: relative;
+}
+.view-order h2{
+    color: white;
+    letter-spacing: 10px;
+    margin-left: 17rem;
+}
+
+.view-order button{
+    color: black;
+    background: rgb(160, 159, 159);
+    border: none;
+    border-radius: 10px;
+    padding: .5rem;
+    position: absolute;
+     top: 25%;  
+     right: 10%;
+     cursor: pointer;
+}
+
+.view-order button:hover{
+    scale: 1.2;
+}
+
+@media screen and (max-width: 1100px) {
+.view-order h2{
+    margin-left: 12rem;
+    font-size: 1.5rem;
+
+}
+}
+
+@media screen and (max-width: 850px){
+    .view-order h2{
+        font-size: 1.2rem;
+         margin-left: 7rem;
+
+    }
+    .view-order button{
+        font-size: .7rem;
+        top: 26%;
+        padding: .4rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .view-order h2{
+        font-size: 1rem;
+         margin-left: 4rem;
+
+    }
+    .view-order button{
+        top: 26%;
+        padding: .4rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .view-order h2{
+        font-size: .8rem;
+         margin-left: 0rem;
+
+    }
+    .view-order button{
+        font-size: .6rem;
+        top: 29%;
+        padding: .3rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .view-order h2{
+        font-size: .6rem;
+         margin-left: -2rem;
+
+    }
+    .view-order button{
+        font-size: .5rem;
+        top: 29%;
+        right: 7%;
+        padding: .3rem;
+    }
+}
+@media screen and (max-width: 350px){
+    .view-order h2{
+        font-size: .6rem;
+         margin-left: -2rem;
+          letter-spacing: 5px;
+    }
+    .view-order button{
+        font-size: .5rem;
+        top: 29%;
+        right: 7%;
+        padding: .3rem;
+    }
+}
+
