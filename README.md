@@ -7,7 +7,6 @@ You can even check it out , if you want to https://ecom-project-website.netlify.
 
 
 
-
 ![Ecommerce-Banner](https://user-images.githubusercontent.com/129366781/228850403-1ef9344b-48bb-4f53-b2a8-5e8819a235e5.png)
 
 
