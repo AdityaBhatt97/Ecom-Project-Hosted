@@ -3,7 +3,7 @@ This is a complete Ecommerce Web App.
 
 The Tech-Stacks that has been used in this project are React, Redux , Node , Express , MongoDb , Mongoose , Stripe
 
-You can even check it out , if you want to https://ecom-project-website.netlify.app/
+You can even check it out , if you want to https://ecom-project-website.netlify.app/  (It can take 30 seconds on a initial request to the server as it is hosted on free hosting.
 
 ![Ecommerce-Banner](https://user-images.githubusercontent.com/129366781/228850403-1ef9344b-48bb-4f53-b2a8-5e8819a235e5.png)
 
